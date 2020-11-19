@@ -1,6 +1,5 @@
 #ifndef ATM_H
 #define ATM_H
-
 #include "Accountholder.h"
 
 class ATM{
