@@ -1,5 +1,5 @@
-#ifndef ATM_H_INCLUDED
-#define ATM_H_INCLUDED
+#ifndef ATM_H
+#define ATM_H
 
 #include "Accountholder.h"
 
@@ -97,10 +97,9 @@ ATM :: ATM()
             cout << "Enter correct PIN : ";
             cin >>entered_pin;
         }
-        //cin.get();
     }
 }
 
 
 
-#endif // ATM_H_INCLUDED
+#endif 
